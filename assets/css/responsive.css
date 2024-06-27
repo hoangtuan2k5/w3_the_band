@@ -1,0 +1,133 @@
+/* PC */
+@media (min-width: 64em) {
+
+}
+
+/* Tablet & mobile */
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a {
+        padding: 5px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .row {
+        flex-direction: column;
+    }
+
+    .s-col-full, 
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    .s-mt-16 {
+        margin-top: 16px !important;
+    }
+    
+    #slider .slider-text {
+        display: none;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .header-search-btn {
+        display: none;
+    }
+    
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 0px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .member-image {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    .ticket-item {
+        align-items: center;
+    }
+
+    .ticket-item p,
+    .ticket-item span {
+        text-align: center;
+        margin: 0 !important;
+    }
+
+    #footer .social-list {
+        align-items: center;
+    }
+
+    #footer .social-list i {
+        margin: 4px;
+    }
+}
